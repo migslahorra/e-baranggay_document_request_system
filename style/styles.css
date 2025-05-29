@@ -1,0 +1,78 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background: rgb(50, 50, 220);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.navigation span {
+    color: white;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: small;
+    color: white;
+    padding: 10px;
+}
+
+.navigation a:hover {
+    background-color: rgb(30, 30, 180);
+    border-bottom: 2px solid white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    margin-left: 10%;
+    margin-top: 15%;
+    position: fixed;
+}
+
+main span {
+    font-size: small;
+}
+
+.login-form {
+    position: absolute;
+    border: 2px solid rgb(50, 50, 220);
+    margin-top: 5%;
+    right: 13.5%;
+}
+
+.login-form h2 {
+    background-color: rgb(50, 50, 220);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+}
