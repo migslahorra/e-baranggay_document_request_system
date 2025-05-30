@@ -47,9 +47,8 @@ footer {
 }
 
 main {
-    margin-left: 10%;
-    margin-top: 15%;
     position: fixed;
+    margin: 12%;
 }
 
 main span {
@@ -58,21 +57,41 @@ main span {
 
 .login-form {
     position: absolute;
-    border: 2px solid rgb(50, 50, 220);
     margin-top: 5%;
     right: 13.5%;
 }
 
 .login-form h2 {
-    background-color: rgb(50, 50, 220);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     text-align: center;
-    color: white;
     padding: 10px;
 }
 
 .form-group {
     margin-bottom: 15px;
     background-color: #f0f0f0;
+}
+
+.links {
+    font-size: small;
+    margin-top: 5%;
+}
+
+.links a {
+    color: rgb(50, 50, 220);
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+    
+}
+
+.fa-sign-in-alt, .fa-user-plus {
+    margin-right: 5px;
+}
+
+.links a:hover {
+    background-color: rgb(50, 50, 220);
+    transition-duration: 0.3s;
+    color: white;
 }
